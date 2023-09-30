@@ -28,7 +28,7 @@
                 <a href="#" class="btn-quote">Consultas</a> <!--Formulario-->
                 <!-- Logos de redes sociales -->
                 <div class="social-media">
-                    <a href="whatshapp">
+                    <a href="https://wa.me/message/5SVRZ6EACWAQO1">
                         <img src="assets/social-media/whatsapp-logo.png" alt="">
                     </a>
                     <a href="https://instagram.com/boscattoudrisarviajes?utm_source=qr&igshid=YzU1NGVlODEzOA==">
@@ -71,33 +71,45 @@
 <!--Acordeon 'sobre nosotros'-->
 <button class="accordion">Quienes somos?</button>
 <div class="panel">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem debitis harum accusantium! Repellat sit recusandae magnam placeat? Incidunt placeat voluptates dolore libero beatae aut sunt explicabo, totam impedit necessitatibus blanditiis?</p>
+    <p>Somos una agencia de viajes apasionada por crear experiencias inolvidables. En el corazón de nuestro enfoque está tu deseo de explorar, descubrir y vivir el mundo. Con años de experiencia y una red global de socios confiables, estamos dedicados a diseñar itinerarios a medida que te llevan a destinos espectaculares y te sumergen en culturas fascinantes. Ya sea que sueñes con playas paradisíacas, aventuras en la naturaleza
+        o explorar las maravillas urbanas, estamos aquí para hacer que tus sueños de viaje se hagan realidad. Bienvenido a un mundo de descubrimiento con Boscatto Udrisar Viajes y Turismo</p>
 </div>
 <br>
 <button class="accordion">Que hacemos?</button>
 <div class="panel">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus maiores aspernatur illo tempora alias molestiae labore odio officiis iste! In, repudiandae hic. Voluptatem neque nam doloremque est iste pariatur!</p>
+    <p>Como agentes de viajes, nuestro trabajo consiste en hacer que tus sueños de viaje se hagan realidad. Estamos aquí para asesorarte en la elección del destino perfecto, gestionar tus reservas de vuelos y alojamiento, diseñar itinerarios emocionantes y personalizados, y asegurarnos de que tengas toda la documentación necesaria. También te ofrecemos opciones de seguros de viaje para tu tranquilidad y estamos disponibles para ayudarte en cualquier momento durante tu aventura. Nuestro objetivo es que disfrutes al máximo de tu viaje,
+        sin preocupaciones ni complicaciones. ¡Dejanos cuidar de los detalles para que tú solo tengas que disfrutar de la experiencia!</p>
 </div>
 <br>
 <button class="accordion">Historia</button>
 <div class="panel">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi exercitationem unde eos delectus debitis quisquam perspiciatis consequuntur. Quod, optio totam facilis quo atque, ipsa odio cum dolorum numquam deserunt voluptatem!</p>
+    <p>
+        Hace algunos años, Gustavo y Graciela, una pareja enamorada de los viajes y la aventura, fundaron "Boscatto Udrisar Viajes y Turismo". Su amor por explorar el mundo se convirtió en su pasión compartida, ayudando a otros a descubrir la emoción de viajar juntos.</p>
 </div>
 
 <!--Slide de imagenes 2-->
 
 <div> <!--Formulario de consultas-->   
-    <H1>Consultas</H1>
-    <form method="get" action="php/formulario.php" class="consultas">
+    <H1 class="consultas">Consultas</H1>
+    <br>
+    <form method="post" action="php/formulario.php" class="form">
         <label for="nombre">Nombre y apellido:</label>
-        <input type="text" id="name" name="nombre" required maxlength="50">
+        <br>
+        <input type="text" class="name" name="nombre" required maxlength="50">
+        <br>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required maxlength="50">
+        <br>
+        <input type="email" class="email" name="email" required maxlength="50">
+        <br>
         <label for="telefono">Numero de telefono:</label>
-        <input type="number" id="numero" name="numero" required maxlength="50">
+        <br>
+        <input type="number" class="numero" name="numero" required maxlength="50">
+        <br>
         <label for="consulta">Realiza tu consulta:</label>
-        <input type="text" id="consulta" name="consulta" required maxlength="500">
-    <button type="submit">Enviar</button>
+        <br>
+        <textarea class="consul" name="consulta"></textarea>
+        <br>
+    <button type="submit" class="enviar" name="enviar" value="enviar">Enviar</button>
     </form>
 </div>
 <script src="js/index.js"></script>

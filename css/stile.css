@@ -190,3 +190,56 @@ header{
     content: "\2796"; /* Codigo 'MENOS' cuando esta desplegado el panel (-) */
 }
 
+.consultas{
+    padding: auto;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.form{
+    padding: auto;
+    align-items: center;
+    margin: auto;
+    width: 800px;
+    background-color: #f9bf42;
+    border-radius: 20px;
+}
+
+.name{
+    margin: 12px;
+    padding: 8px;
+    width: 600px;
+    border-radius: 30px;
+}
+.email{
+    margin: 12px;
+    padding: 8px;
+    width: 600px;
+    border-radius: 30px;
+}
+.numero{
+    margin: 12px;
+    padding: 8px;
+    width: 600px;
+    border-radius: 30px;
+}
+.consul{
+    margin: 15px;
+    padding: 10px;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 200px;
+    border-radius: 30px;
+}
+
+.enviar{
+    background-color: white;/*variable*/
+    font-size: 16px; /*variables*/
+    position: relative;
+    border-radius: 10px;
+}
+
+.enviar:hover{
+    background-color: gold;
+}
